@@ -1,3 +1,4 @@
+require('dotenv').config({ path: path.join(__dirname, '.env') });
 const tmi = require('tmi.js');
 
 // Define configuration options

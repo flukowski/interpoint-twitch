@@ -41,6 +41,12 @@ function onMessageHandler (target, context, msg, self) {
   } if (commandName === '!discord') {
     client.say(target, `https://discord.gg/pBvrH77D`);
     console.log(`* Executed ${commandName} command`);
+  } if (commandName === '!patreon') {
+    client.say(target, `https://www.patreon.com/interpoint`);
+    console.log(`* Executed ${commandName} command`);
+  } if (commandName === '!youtube') {
+    client.say(target, `https://www.youtube.com/channel/UCV88ITZdBYnLpRGDFYXymKA/playlists`);
+    console.log(`* Executed ${commandName} command`);
   } else {
     console.log(`* Unknown command ${commandName}`);
   }
